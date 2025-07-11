@@ -1,0 +1,4 @@
+_site
+.idea
+Gemfile.lock
+assets/css/main.css.map
