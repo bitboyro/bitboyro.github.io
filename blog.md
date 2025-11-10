@@ -2,9 +2,9 @@
 layout: default
 title: blog
 ---
-# Last articles
+# Last posts
 
-{% for article in site.articles reversed %}
-[{{ article.title }}]({{ article.url }})
+{% for post in site.posts reversed %}
+[{{ post.title }}]({{ post.url }})
 
 {% endfor %}
