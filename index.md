@@ -5,12 +5,12 @@ title: home
 
 # bitboy.ro
 
-## hei,
+## hello,
 
-i am Roman Botnari, a developer from Romania.
-i work for Axway on a platform for secure and reliable data exchanges.
+Welcome to the bitboy labs. This is the place where I investigate technologies, publish experiments, personal projects and share hot tokes 🌶️.
 
-bitboy.ro is the place where I investigate technologies, publish experiments, personal projects and share hot tokes 🌶️.
+I am Roman Botnari, a developer from Romania.
+I work for Axway on a platform for secure and reliable data exchanges.
 
 ## techstack
 I speak Java (i know.. 🦙) with a Spring Boot dialect, some Python, Javascript,
@@ -23,7 +23,7 @@ To construct my experiments I use a variety of tools and technologies, including
 * and of course (the infamous) prompt engineering.
 
 ## ai
-artificial intelligence is the hottest 🔥 topic of the moment, so in the upcoming articles I will explore this goldmine 🧈🏃🏻.
+Artificial intelligence is the hottest 🔥 topic of the moment, so in the upcoming articles I will explore this goldmine 🧈🏃🏻.
 
 ## Last posts
 {% for post in site.posts reversed limit:3 %}

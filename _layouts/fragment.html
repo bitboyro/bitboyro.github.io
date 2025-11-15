@@ -2,6 +2,7 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
+<a href="{% link {{ page.parent }} %}">Back to article</a>
 <p>{{ page.date | date_to_string }}</p>
 
 {{ content | toc }}

@@ -1,7 +1,7 @@
 collections:
   takes:
     output: true
-  articles:
+  fragments:
     output: true
 
 plugins:
@@ -13,9 +13,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jeyll-toc
-
-plugins:
-  - jekyll-toc
 
 email: roman@bitboy.ro
 
