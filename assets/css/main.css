@@ -53,3 +53,7 @@ ul {
     width: 720px; /* you can use % */
     height: auto;
 }
+
+.nav-item {
+  font-size: 2rem;
+}
