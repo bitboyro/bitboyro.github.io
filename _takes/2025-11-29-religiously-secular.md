@@ -1,0 +1,5 @@
+---
+layout: post
+---
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">In the olden days we had company sponsored research heavily scrutinised for partiality. Now an AI company publishes a ‘research’ paper and everyone takes it in as the word of the bible. How did you become the evermore religious secular society?<a href="https://twitter.com/hashtag/ai?src=hash&amp;ref_src=twsrc%5Etfw">#ai</a> <a href="https://twitter.com/hashtag/llm?src=hash&amp;ref_src=twsrc%5Etfw">#llm</a> <a href="https://twitter.com/hashtag/research?src=hash&amp;ref_src=twsrc%5Etfw">#research</a> <a href="https://twitter.com/hashtag/company?src=hash&amp;ref_src=twsrc%5Etfw">#company</a></p>&mdash; bitboy.ro (@bitboyro) <a href="https://twitter.com/bitboyro/status/1994730325553885281?ref_src=twsrc%5Etfw">November 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
