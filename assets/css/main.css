@@ -44,7 +44,7 @@ table, th, td {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: circle;
   /* padding:0px; */
   /* margin:0px; */
 }
