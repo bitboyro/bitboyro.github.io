@@ -1,0 +1,18 @@
+collections:
+  takes:
+    output: true
+  fragments:
+    output: true
+
+plugins:
+  - jekyll-toc
+
+gems:
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jeyll-toc
+
+email: roman@bitboy.ro
+
