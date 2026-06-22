@@ -17,6 +17,10 @@ The hype around this is big, so I put on my tester cap and ran some experiments.
 
 This isn't a takedown — it's a field report. The Loop is genuinely a useful idea, but the implementation can be improved.
 
+<img class="resize" src="/assets/images/claude_loops/claudeloopsmeme.jpg" alt="claudeloopsmeme.jpg"
+  style="width:100%;max-width:900px;display:block;"
+/>
+
 ## What is it though?
 
 It's a function you can call from Claude Code via `/loop`.
