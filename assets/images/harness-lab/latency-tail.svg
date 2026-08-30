@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 462" width="1140" height="693" role="img" aria-label="The tail is where the packaging shows">
+<style>
+  svg {
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --s1: #2a78d6;
+    --s2: #eb6834;
+    --quiet1: #c9c8c2;
+    --quiet2: #d8d7d2;
+    --quiet3: #e4e3de;
+    --quiet4: #eeede9;
+    font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    svg {
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --s1: #3987e5;
+      --s2: #d95926;
+      --quiet1: #4a4a46;
+      --quiet2: #3d3d39;
+      --quiet3: #343431;
+      --quiet4: #2c2c29;
+    }
+  }
+  .bg { fill: var(--surface); }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .axis { stroke: var(--axis); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 11px; }
+  .lbl { fill: var(--ink2); font-size: 12px; }
+  .lbl-strong { fill: var(--ink); font-size: 12px; font-weight: 600; }
+  .title { fill: var(--ink); font-size: 15px; font-weight: 600; }
+  .sub { fill: var(--muted); font-size: 11.5px; }
+  .note { fill: var(--muted); font-size: 10.5px; }
+  .s1 { fill: var(--s1); }
+  .s2 { fill: var(--s2); }
+  .ring { stroke: var(--surface); stroke-width: 2; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="462"/>
+<text class="title" x="24" y="30">The tail is where the packaging shows</text>
+<text class="sub" x="24" y="49">Wall-clock per run · p50 dot, bar to p95, tick at p99</text>
+<line class="grid" x1="116.0" y1="82" x2="116.0" y2="358"/>
+<text class="tick" x="116.0" y="74" text-anchor="middle">0s</text>
+<line class="grid" x1="214.9" y1="82" x2="214.9" y2="358"/>
+<text class="tick" x="214.9" y="74" text-anchor="middle">20s</text>
+<line class="grid" x1="313.9" y1="82" x2="313.9" y2="358"/>
+<text class="tick" x="313.9" y="74" text-anchor="middle">40s</text>
+<line class="grid" x1="412.8" y1="82" x2="412.8" y2="358"/>
+<text class="tick" x="412.8" y="74" text-anchor="middle">60s</text>
+<line class="grid" x1="511.8" y1="82" x2="511.8" y2="358"/>
+<text class="tick" x="511.8" y="74" text-anchor="middle">80s</text>
+<text class="lbl" x="104" y="111" text-anchor="end">A1</text>
+<rect x="174.0" y="100" width="67.2" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="284.5" y1="97" x2="284.5" y2="115" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="174.0" cy="106" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="294.5" y="110">12 → 25 → 34s</text>
+<text class="lbl" x="104" y="145" text-anchor="end">B1-auth</text>
+<rect x="188.6" y="134" width="51.1" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="269.1" y1="131" x2="269.1" y2="149" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="188.6" cy="140" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="279.1" y="144">15 → 25 → 31s</text>
+<text class="lbl" x="104" y="179" text-anchor="end">B2-auth</text>
+<rect x="196.6" y="168" width="54.3" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="291.0" y1="165" x2="291.0" y2="183" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="196.6" cy="174" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="301.0" y="178">16 → 27 → 35s</text>
+<text class="lbl" x="104" y="213" text-anchor="end">A2</text>
+<rect x="203.6" y="202" width="61.0" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="304.9" y1="199" x2="304.9" y2="217" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="203.6" cy="208" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="314.9" y="212">18 → 30 → 38s</text>
+<text class="lbl" x="104" y="247" text-anchor="end">D1</text>
+<rect x="231.5" y="236" width="62.1" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="344.4" y1="233" x2="344.4" y2="251" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="231.5" cy="242" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="354.4" y="246">23 → 36 → 46s</text>
+<text class="lbl" x="104" y="281" text-anchor="end">D2-auth</text>
+<rect x="232.5" y="270" width="59.5" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="342.8" y1="267" x2="342.8" y2="285" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="232.5" cy="276" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="352.8" y="280">24 → 36 → 46s</text>
+<text class="lbl" x="104" y="315" text-anchor="end">C1</text>
+<rect x="240.5" y="304" width="76.7" height="12" rx="3" fill="var(--quiet1)"/>
+<line x1="366.2" y1="301" x2="366.2" y2="319" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="240.5" cy="310" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="376.2" y="314">25 → 41 → 51s</text>
+<text class="lbl-strong" x="104" y="349" text-anchor="end">Z-cheat</text>
+<rect x="306.5" y="338" width="153.0" height="12" rx="3" fill="var(--s1)"/>
+<line x1="564.6" y1="335" x2="564.6" y2="353" stroke="var(--axis)" stroke-width="2"/>
+<circle cx="306.5" cy="344" r="5" fill="var(--s2)" class="ring"/>
+<text class="note" x="574.6" y="348">39 → 69 → 91s</text>
+<circle cx="122" cy="400" r="5" fill="var(--s2)" class="ring"/>
+<text class="lbl" x="136" y="404">p50</text>
+<rect x="182" y="394" width="26" height="12" rx="3" fill="var(--quiet1)"/>
+<text class="lbl" x="216" y="404">p50–p95</text>
+<line x1="296" y1="391" x2="296" y2="409" stroke="var(--axis)" stroke-width="2"/>
+<text class="lbl" x="306" y="404">p99</text>
+<text class="note" x="24" y="432">Z-cheat’s p95 is 69s against C1’s 41s on the same shell — the cost of stopping to read a file it was told about.</text>
+<text class="note" x="24" y="450">No quartiles are stored, so this is a percentile strip rather than a box plot — an IQR here would be invented.</text>
+</svg>

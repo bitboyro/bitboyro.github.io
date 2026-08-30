@@ -4,7 +4,8 @@ title: hottakes
 ---
 # Hot Chilly Takes
 
-{% for take in site.takes reversed %}
+{% assign latest_takes = site.takes | sort: 'date' | reverse %}
+{% for take in latest_takes %}
 [{{ take.title }}]({{ take.url }})
 
 {{ take.excerpt }}

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 406" width="1140" height="609" role="img" aria-label="One of these arms is four times less predictable">
+<style>
+  svg {
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --s1: #2a78d6;
+    --s2: #eb6834;
+    --quiet1: #c9c8c2;
+    --quiet2: #d8d7d2;
+    --quiet3: #e4e3de;
+    --quiet4: #eeede9;
+    font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    svg {
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --s1: #3987e5;
+      --s2: #d95926;
+      --quiet1: #4a4a46;
+      --quiet2: #3d3d39;
+      --quiet3: #343431;
+      --quiet4: #2c2c29;
+    }
+  }
+  .bg { fill: var(--surface); }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .axis { stroke: var(--axis); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 11px; }
+  .lbl { fill: var(--ink2); font-size: 12px; }
+  .lbl-strong { fill: var(--ink); font-size: 12px; font-weight: 600; }
+  .title { fill: var(--ink); font-size: 15px; font-weight: 600; }
+  .sub { fill: var(--muted); font-size: 11.5px; }
+  .note { fill: var(--muted); font-size: 10.5px; }
+  .s1 { fill: var(--s1); }
+  .s2 { fill: var(--s2); }
+  .ring { stroke: var(--surface); stroke-width: 2; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="406"/>
+<text class="title" x="24" y="30">One of these arms is four times less predictable</text>
+<text class="sub" x="24" y="49">Share of tasks whose outcome changed across three repeats at temperature 0</text>
+<line class="grid" x1="116.0" y1="80" x2="116.0" y2="322"/>
+<text class="tick" x="116.0" y="72" text-anchor="middle">0%</text>
+<line class="grid" x1="218.2" y1="80" x2="218.2" y2="322"/>
+<text class="tick" x="218.2" y="72" text-anchor="middle">10%</text>
+<line class="grid" x1="320.3" y1="80" x2="320.3" y2="322"/>
+<text class="tick" x="320.3" y="72" text-anchor="middle">20%</text>
+<line class="grid" x1="422.5" y1="80" x2="422.5" y2="322"/>
+<text class="tick" x="422.5" y="72" text-anchor="middle">30%</text>
+<line class="grid" x1="524.7" y1="80" x2="524.7" y2="322"/>
+<text class="tick" x="524.7" y="72" text-anchor="middle">40%</text>
+<text class="lbl-strong" x="104" y="107" text-anchor="end">A2</text>
+<rect x="116" y="92" width="446.5" height="20" rx="4" fill="var(--s1)"/>
+<text class="lbl-strong" x="572.5" y="107">43.7%</text>
+<text class="lbl" x="104" y="141" text-anchor="end">B2-auth</text>
+<rect x="116" y="126" width="253.2" height="20" rx="4" fill="var(--quiet1)"/>
+<text class="lbl" x="379.2" y="141">24.8%</text>
+<text class="lbl" x="104" y="175" text-anchor="end">D2-auth</text>
+<rect x="116" y="160" width="208.8" height="20" rx="4" fill="var(--quiet1)"/>
+<text class="lbl" x="334.8" y="175">20.4%</text>
+<text class="lbl" x="104" y="209" text-anchor="end">D1</text>
+<rect x="116" y="194" width="206.6" height="20" rx="4" fill="var(--quiet1)"/>
+<text class="lbl" x="332.6" y="209">20.2%</text>
+<text class="lbl" x="104" y="243" text-anchor="end">A1</text>
+<rect x="116" y="228" width="193.2" height="20" rx="4" fill="var(--quiet1)"/>
+<text class="lbl" x="319.2" y="243">18.9%</text>
+<text class="lbl" x="104" y="277" text-anchor="end">B1-auth</text>
+<rect x="116" y="262" width="166.6" height="20" rx="4" fill="var(--quiet1)"/>
+<text class="lbl" x="292.6" y="277">16.3%</text>
+<text class="lbl-strong" x="104" y="311" text-anchor="end">C1</text>
+<rect x="116" y="296" width="113.3" height="20" rx="4" fill="var(--s1)"/>
+<text class="lbl-strong" x="239.3" y="311">11.1%</text>
+<line class="axis" x1="116" y1="322" x2="586" y2="322"/>
+<text class="note" x="24" y="362">A2 changed its answer on 44% of the tasks it was asked three times, at temperature 0. C1 did so on 11%.</text>
+<text class="note" x="24" y="382">A single-run benchmark would have reported one of those coin flips as a finding.</text>
+</svg>

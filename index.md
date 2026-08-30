@@ -33,6 +33,7 @@ Artificial intelligence is the hottest 🔥 topic of the moment, so in the upcom
 {% endfor %}
 
 ## Last hottakes
-{% for take in site.takes reversed limit:3 %}
+{% assign latest_takes = site.takes | sort: 'date' | reverse %}
+{% for take in latest_takes limit:3 %}
 [{{ take.title }}]({{ take.url }})
 {% endfor %}

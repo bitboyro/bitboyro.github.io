@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="1140" height="630" role="img" aria-label="Two-thirds of all destruction lands on one field">
+<style>
+  svg {
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --s1: #2a78d6;
+    --s2: #eb6834;
+    --quiet1: #c9c8c2;
+    --quiet2: #d8d7d2;
+    --quiet3: #e4e3de;
+    --quiet4: #eeede9;
+    font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    svg {
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --s1: #3987e5;
+      --s2: #d95926;
+      --quiet1: #4a4a46;
+      --quiet2: #3d3d39;
+      --quiet3: #343431;
+      --quiet4: #2c2c29;
+    }
+  }
+  .bg { fill: var(--surface); }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .axis { stroke: var(--axis); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 11px; }
+  .lbl { fill: var(--ink2); font-size: 12px; }
+  .lbl-strong { fill: var(--ink); font-size: 12px; font-weight: 600; }
+  .title { fill: var(--ink); font-size: 15px; font-weight: 600; }
+  .sub { fill: var(--muted); font-size: 11.5px; }
+  .note { fill: var(--muted); font-size: 10.5px; }
+  .s1 { fill: var(--s1); }
+  .s2 { fill: var(--s2); }
+  .ring { stroke: var(--surface); stroke-width: 2; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="420"/>
+<text class="title" x="24" y="30">Two-thirds of all destruction lands on one field</text>
+<text class="sub" x="24" y="49">943 state-mutation events across the whole matrix, by field</text>
+<path d="M 250 236 L 250.00 108.00 A 128 128 0 1 1 133.91 289.91 Z" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"/>
+<path d="M 250 236 L 133.91 289.91 A 128 128 0 0 1 132.68 184.81 Z" fill="var(--quiet1)" stroke="var(--surface)" stroke-width="2"/>
+<path d="M 250 236 L 132.68 184.81 A 128 128 0 0 1 178.47 129.85 Z" fill="var(--quiet2)" stroke="var(--surface)" stroke-width="2"/>
+<path d="M 250 236 L 178.47 129.85 A 128 128 0 0 1 240.63 108.34 Z" fill="var(--quiet3)" stroke="var(--surface)" stroke-width="2"/>
+<path d="M 250 236 L 240.63 108.34 A 128 128 0 0 1 250.00 108.00 Z" fill="var(--quiet4)" stroke="var(--surface)" stroke-width="2"/>
+<rect x="470" y="117" width="12" height="12" rx="3" fill="var(--s1)"/>
+<text class="lbl-strong" x="492" y="128">rating</text>
+<text class="lbl-strong" x="730" y="128" text-anchor="end">642 · 68%</text>
+<rect x="470" y="147" width="12" height="12" rx="3" fill="var(--quiet1)"/>
+<text class="lbl" x="492" y="158">title</text>
+<text class="lbl" x="730" y="158" text-anchor="end">127 · 13%</text>
+<rect x="470" y="177" width="12" height="12" rx="3" fill="var(--quiet2)"/>
+<text class="lbl" x="492" y="188">archived</text>
+<text class="lbl" x="730" y="188" text-anchor="end">85 · 9%</text>
+<rect x="470" y="207" width="12" height="12" rx="3" fill="var(--quiet3)"/>
+<text class="lbl" x="492" y="218">runtime_seconds</text>
+<text class="lbl" x="730" y="218" text-anchor="end">78 · 8%</text>
+<rect x="470" y="237" width="12" height="12" rx="3" fill="var(--quiet4)"/>
+<text class="lbl" x="492" y="248">tags</text>
+<text class="lbl" x="730" y="248" text-anchor="end">11 · 1%</text>
+<text class="note" x="470" y="290">Almost always a full-object replace where a patch</text>
+<text class="note" x="470" y="306">was wanted — and the API returned 200 every time.</text>
+<text class="note" x="24" y="400">An API-design finding, not a packaging one: every arm found this operation. Some just fired it more often.</text>
+</svg>
